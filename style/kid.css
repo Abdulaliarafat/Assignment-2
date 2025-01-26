@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+.quicksand-font{
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* nav-bar */
+.nav-ber-section{
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin: 20px auto;
+}
+.nav-bar-items{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  gap: 32px;
+
+
+
+ }
+.logo{
+  display: flex;
+  align-items:center; 
+
+}
+.logo-title{
+  font-size: 2rem;
+  font-weight: 800;
+  color: #111111;
+}
+.item-1{
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #FEA301;
+  text-decoration: none;
+  
+}
+.item-2{
+  font-size: 1.25rem;
+  font-weight: 500;
+  color:#01ACFD;
+  text-decoration: none;
+}
+.item-3{
+  font-size: 1.25rem;
+  font-weight: 500;
+  color:#05D4DF;
+  text-decoration: none;
+}
+.item-4{
+  font-size: 1.25rem;
+  font-weight: 500;
+  color:#5D58EF;
+  text-decoration: none;
+}
+.btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn-primary{
+  padding: 10px 60px;
+  background-color: #FEA301;
+  border-radius: 12px;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color:white;
+  border: none;
+}
+.menu-btn{
+  height: 30px;
+  width: 30px;
+  margin: 0 auto;
+  padding: 10px 5px;
+  
+  display: none;
+}
+/* banner-section */
+.banner-title-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner-heading{
+  padding: 122px 50px 122px 10px;
+}
+h1{
+  font-weight: 700;
+  font-size: 3.50rem;
+  color: #111111;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.yellow{
+  color: #FEA301;
+}
+.blue{
+  color: #01ACFD;
+}
+.description{
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: #111111;
+}
+.btn-black{
+  background-color: #111111;
+  color: #FFFFFF;
+  padding: 10px 47px;
+  border-radius: 12px;
+}
+.image{
+  width: 100%;
+}
+/* card-section*/
+h3{
+  font-size: 2.80rem;
+  font-weight: 700;
+  color: #000000;
+}
+h3{
+  font-size: 2.50rem;
+  font-weight: 700;
+  color: #202020;
+}
+.card-discription{
+  font-size: 0.90rem;
+  font-weight: 500;
+  color:#808080;
+}
+.header{
+  text-align: center;
+}
+.card-1{
+  border: 1px solid #64C8FF;
+  
+}
+.card-2{
+  border: 1px solid #F0AA00;
+
+}
+.card-3{
+  border: 1px solid #8700FF;
+  
+
+}
+.cards{
+  display: flex;
+  justify-content:center;
+  text-align: center;
+}
+.btn-1{
+  font-size: 0.90rem;
+  font-weight: 700;
+  color:#64C8FF;
+  border: none;
+  background-color: #FFFFFF;
+}
+.btn-2{
+  font-size: 0.90rem;
+  font-weight: 700;
+  color: #F0AA00;
+  border: none;
+  background-color: #FFFFFF;
+}
+.btn-3{
+  font-size: 0.90rem;
+  font-weight: 700;
+  color:#8700FF;
+  border: none;
+  background-color: #FFFFFF;
+}
+
+
+
+@media screen and (max-width:576px) {
+  .logo-title, .nav-bar-items, .btn-primary{
+    display: none;
+  }
+  .nav-ber-section{
+    border-bottom:1px solid #FEA301;
+    justify-content: space-between;
+  }
+  .menu-btn{
+    display: block;
+  }
+  .banner-title-section{
+    flex-direction: column-reverse;
+  }
+  h1{
+    font-size: 2rem;
+  }
+  .image{
+  width: 90%;
+  padding: 0 5px 0 5px;
+  }
+  .banner-heading{
+    width: 80%;
+    text-align: center;
+    padding:50px;
+  }
+  }
+ 
