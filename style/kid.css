@@ -135,24 +135,39 @@ h3{
 }
 .header{
   text-align: center;
+  margin: 70px 0;
 }
 .card-1{
+  height: 340px;
+  width: 300px;
+  margin: 0 auto;
   border: 1px solid #64C8FF;
-  
+  padding: 20px 10px ;
+  border-radius: 18px;
+
 }
 .card-2{
+  height: 340px;
+  width: 300px;
+  margin: 0 auto;
   border: 1px solid #F0AA00;
-
+  padding: 20px 10px ;
+  border-radius: 18px;
 }
-.card-3{
-  border: 1px solid #8700FF;
-  
 
+.card-3{
+  height: 340px;
+  width: 300px;
+  margin: 0 auto;
+  border: 1px solid #8700FF;
+  padding: 20px 10px ;
+  border-radius: 18px;
 }
 .cards{
   display: flex;
   justify-content:center;
   text-align: center;
+  gap: 25px;
 }
 .btn-1{
   font-size: 0.90rem;
@@ -160,6 +175,7 @@ h3{
   color:#64C8FF;
   border: none;
   background-color: #FFFFFF;
+  margin-top: 24px;
 }
 .btn-2{
   font-size: 0.90rem;
@@ -167,6 +183,7 @@ h3{
   color: #F0AA00;
   border: none;
   background-color: #FFFFFF;
+  margin-top: 32px;
 }
 .btn-3{
   font-size: 0.90rem;
@@ -174,6 +191,20 @@ h3{
   color:#8700FF;
   border: none;
   background-color: #FFFFFF;
+  margin-top: 32px;
+}
+.btn-curcales{
+  text-align: center;
+  margin: 70px 0;
+}
+.btn-curcale{
+  font-size: 1.50rem;
+  background-color: #FEA301;
+  border: none;
+  height: 50px;
+  width: 50px;
+  border-radius: 30px;
+  color: white;
 }
 
 
@@ -204,5 +235,13 @@ h3{
     text-align: center;
     padding:50px;
   }
+  .header{
+    margin:0 0 20px 0;
   }
- 
+  .cards{
+    flex-direction: column;
+  }
+  .btn-curcales{
+    display: none;
+  }
+}
