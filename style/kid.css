@@ -20,9 +20,6 @@ margin: 20px auto;
   align-items: center;
   list-style: none;
   gap: 32px;
-
-
-
  }
 .logo{
   display: flex;
@@ -144,6 +141,7 @@ h3{
   border: 1px solid #64C8FF;
   padding: 20px 10px ;
   border-radius: 18px;
+  box-shadow: ;
 
 }
 .card-2{
@@ -206,8 +204,208 @@ h3{
   border-radius: 30px;
   color: white;
 }
+/* story-section */
+.sub-story-3{
+  display: none;
+}
+.sub-story-4{
+  display: none; 
+}
+.stories-header{
+  text-align: center;
+}
+.our-stories{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.sub-storys{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  
+  
+}
+.stories-header{
+  font-weight: 700;
+  font-size: 2.90rem;
+  color: #000000;
+}
+.main-story, 
+.sub-story-1, 
+.sub-story-2, 
+.sub-story-3, 
+.sub-story-4, 
+.sub-story-5, 
+.sub-story-6{
+  border-radius: 16px;
+  border: 1px solid red;
+}
+.main-image, 
+.sub-image-1, 
+.sub-image-2, 
+.sub-image-3, 
+.sub-image-4, 
+.sub-image-5, 
+.sub-image-6 {
+  width: 100%;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+.main-btn{
+  background-color: #3CD8E8;
+  font-weight: 500;
+  font-size: 1rem;
+  color: #FFFFFF;
+  padding: 15px 19px;
+  border-radius: 48px;
+  border: none;
+  position: relative;
+  left: 70px;
+  bottom: 28px;
+}
+.main-heading{
+  font-weight: 700;
+  font-size: 1.50rem;
+  color: #000000;
+  margin-top: 0%;
+  margin-left: 35px;
 
+}
+.main-paragrph{
+  font-weight: 500;
+  font-size: 0.93rem;
+  color: #666666;
+  margin-top: 0%;
+  margin-left: 38px;
+}
+.sub-story-1{
 
+}
+.sub-btn-1{
+  background-color: red;
+  padding: 9px 18px;
+  color: #FFFFFF;
+  border-radius: 48px;
+  border: none;
+  position: relative;
+  left: 40px;
+  bottom: 22px;
+}
+.sub-description-1, 
+.sub-description-2, 
+.sub-description-5, 
+.sub-description-6{
+  font-weight: 700;
+  font-size: 0.90rem;
+  color: #000000;
+  margin: 0 15px 20px 15px;
+}
+.sub-btn-2{
+  background-color: #5D58F0;
+  padding: 9px 19px;
+  color: #FFFFFF;
+  border-radius: 48px;
+  border: none;
+  position: relative;
+  left: 40px;
+  bottom: 22px;
+}
+
+.sub-btn-5{
+  background-color: green;
+  padding: 9px 19px;
+  color: #FFFFFF;
+  border-radius: 48px;
+  border: none;
+  position: relative;
+  left: 40px;
+  bottom: 22px;
+}
+
+.sub-btn-6{
+  background-color:darkred;
+  padding: 9px 19px;
+  color: #FFFFFF;
+  border-radius: 48px;
+  border: none;
+  position: relative;
+  left: 40px;
+  bottom: 22px;
+}
+.story-button{
+  text-align: center;
+  margin: 80px 0;
+}
+/* footer-section */
+.kid-education{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: #01ACFD;
+  padding: auto;
+}
+.education{
+  border: 1px solid #FFFFFF;
+  padding: 25px 60px 80px 60px;
+  border: none;
+}
+
+.img-title{
+  display: flex;
+}
+.img-title > img{
+  height: 45%;
+  width: 50%;
+  margin-top: 50px;
+
+}
+.edu-title{
+  font-size: 2.60rem;
+  font-weight: 700;
+  color: #FFFFFF;
+  margin-bottom: 0;
+}
+
+.edu-description{
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+.school{
+  border: 1px solid #FFFFFF;
+  padding: 25px 60px 50px 60px;
+  border: none;
+}
+.list-teams{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.about-title{
+  font-size: 1.50rem;
+  font-weight: 700;
+  color: #FFFFFF;
+  margin-left: 40px;
+}
+.about-list{
+  list-style: none;
+}
+.school-nav{
+  text-decoration: none;
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #FFFFFF;
+}
+.title{
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+.web-site-icon{
+  border: 1px solid #FFFFFF;
+  padding: 25px 60px 50px 60px;
+  border: none;
+}
 
 @media screen and (max-width:576px) {
   .logo-title, .nav-bar-items, .btn-primary{
@@ -244,4 +442,41 @@ h3{
   .btn-curcales{
     display: none;
   }
+  .main-story{
+    display: none;
+  }
+  .sub-story-3{
+    display: block;
+  }
+  .sub-story-4{
+    display: block; 
+  }
+  .sub-btn-1, 
+  .sub-btn-2, 
+  .sub-btn-3, 
+  .sub-btn-4, 
+  .sub-btn-5, 
+  .sub-btn-6{
+    position: relative;
+    left: 18px;
+}
+.story-button{
+ margin: 30px auto;
+}
+.kid-education{
+grid-template-columns: repeat(1, 1fr);
+}
+.education{
+  padding-left: 34px;
+  padding-bottom: 2px;
+}
+.school{
+  padding-left:0;
+  padding-top: 2px;
+  padding-bottom: 0;
+}
+.web-site-icon{
+  padding-top: 0;
+  padding-left: 35px;
+}
 }
