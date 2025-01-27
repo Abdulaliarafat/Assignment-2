@@ -138,28 +138,31 @@ h3{
   height: 340px;
   width: 300px;
   margin: 0 auto;
-  border: 1px solid #64C8FF;
+  border: 1px solid #DEF5FF;
   padding: 20px 10px ;
   border-radius: 18px;
-  box-shadow: ;
+  box-shadow: inset 1px 20px 50px 20px #bbd9e6;
 
 }
 .card-2{
   height: 340px;
   width: 300px;
   margin: 0 auto;
-  border: 1px solid #F0AA00;
+  border: 1px solid #C6794D;
   padding: 20px 10px ;
   border-radius: 18px;
+  box-shadow: inset 1px 15px 50px 1px #e1b398;
+
 }
 
 .card-3{
   height: 340px;
   width: 300px;
   margin: 0 auto;
-  border: 1px solid #8700FF;
+  border: 1px solid #CA92FF;
   padding: 20px 10px ;
   border-radius: 18px;
+  box-shadow: inset 1px 15px 50px 1px #CA92FF;
 }
 .cards{
   display: flex;
@@ -211,6 +214,8 @@ h3{
 .sub-story-4{
   display: none; 
 }
+.stories-section{ 
+}
 .stories-header{
   text-align: center;
 }
@@ -224,7 +229,7 @@ h3{
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
   
-  
+
 }
 .stories-header{
   font-weight: 700;
@@ -239,8 +244,9 @@ h3{
 .sub-story-5, 
 .sub-story-6{
   border-radius: 16px;
-  border: 1px solid red;
+  border: none;
 }
+
 .main-image, 
 .sub-image-1, 
 .sub-image-2, 
@@ -278,9 +284,7 @@ h3{
   color: #666666;
   margin-top: 0%;
   margin-left: 38px;
-}
-.sub-story-1{
-
+  border: none;
 }
 .sub-btn-1{
   background-color: red;
@@ -335,14 +339,12 @@ h3{
 }
 .story-button{
   text-align: center;
-  margin: 80px 0;
 }
 /* footer-section */
 .kid-education{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   background-color: #01ACFD;
-  padding: auto;
 }
 .education{
   border: 1px solid #FFFFFF;
