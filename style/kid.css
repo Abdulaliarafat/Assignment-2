@@ -355,9 +355,9 @@ h3{
 .img-title{
   display: flex;
 }
-.img-title > img{
-  height: 45%;
-  width: 50%;
+.edu-image{
+  height: 85px;
+  width: 82px;
   margin-top: 50px;
 
 }
